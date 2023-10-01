@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #3498db;
+}
+
+.additional-info {
+  display: none;
+  margin-top: 10px;
+}
